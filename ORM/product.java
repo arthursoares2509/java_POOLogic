@@ -1,4 +1,5 @@
 @Entity(nome="EntityProduct")
+
 @Table(nome="table_product")
 public class Product {
 }

@@ -1,5 +1,3 @@
-package ORM;
-
 @Entity
 public class Usuario {
     @Id
