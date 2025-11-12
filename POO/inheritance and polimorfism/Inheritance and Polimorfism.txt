@@ -1,0 +1,35 @@
+Inheritance
+
+- "Inherits something"
+- "Parent and child"
+- Allows one or more class(es) to inherit the attributes and methods of another class
+- We have a parent class:
+	- Product - attributes and its methods
+		- Snack (child)
+		- Beverage (child)
+
+ADVANTAGES OF USING INHERITANCE:
+-> Helps with code organization, security and structure
+-> Allows capturing real-world relationships between objects
+
+HOW TO USE: extends
+
+1 - Create the model class or superclass (parent)
+2 - Create the derived class(es) (children)
+3 - In derived classes don't forget EXTENDS
+4 - Apply inheritance ESPECIALLY in the constructor method
+5 - Make the superclass ABSTRACT
+
+================================================================
+
+POLYMORPHISM
+
+-> "Many forms"
+-> Allows objects of different classes to be treated uniformly, as long as they share a common INTERFACE
+-> Classes implement the same INTERFACE or inherit from the same base class.
+
+INHERITANCE 		VS 		POLYMORPHISM
+"Inherits attributes and methods"		"Changes the form"
+Constructor method			Does not have a constructor method
+General methods				General methods - without implementation
+EXTENDS					IMPLEMENTS
